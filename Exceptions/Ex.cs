@@ -5,7 +5,8 @@
         public enum EnmException
         {
             INVALID_OBJECT = 1,
-            INVALID_TOKEN = 2
+            INVALID_TOKEN,
+            USER_EXISTS
         }
     }
 }
